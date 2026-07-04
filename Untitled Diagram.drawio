@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ClYlbuoUxviXqJZldVrZ">
+    <mxGraphModel dx="2696" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" background="light-dark(#FFFFFF,#000000)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5" y="226.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph TD\n  Sensor[IoT Sensor] --&gt;|Data| Gateway[IoT Gateway]\n  Gateway --&gt;|Encrypted Stream| Cloud[Cloud Platform]\n  Cloud --&gt;|Analytics| App[User Application]\n  Cloud --&gt;|Control Commands| Gateway\n  Gateway --&gt;|Actuation| Device[Actuator/Device]\n  style Sensor fill:#f9f,stroke:#333\n  style Cloud fill:#bbf,stroke:#333\n  style App fill:#dfd,stroke:#333&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7hHtjjbS8RLQLpbQn5iH-6">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=20;rounded=1;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="IoT Sensor" mermaidId="n:Sensor" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f9f;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="IoT Sensor" id="7hHtjjbS8RLQLpbQn5iH-7">
+          <mxCell parent="7hHtjjbS8RLQLpbQn5iH-6" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f9f;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;rounded=1;" vertex="1">
+            <mxGeometry height="54" width="133" x="137" y="300" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="IoT Gateway" mermaidId="n:Gateway" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="IoT Gateway" id="7hHtjjbS8RLQLpbQn5iH-8">
+          <mxCell parent="7hHtjjbS8RLQLpbQn5iH-6" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;rounded=1;" vertex="1">
+            <mxGeometry height="54" width="149" x="317" y="431" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cloud Platform" mermaidId="n:Cloud" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#bbf;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Cloud Platform" id="7hHtjjbS8RLQLpbQn5iH-9">
+          <mxCell parent="7hHtjjbS8RLQLpbQn5iH-6" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#bbf;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;rounded=1;" vertex="1">
+            <mxGeometry height="54" width="168" x="359" y="740" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Application" mermaidId="n:App" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#dfd;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="User Application" id="7hHtjjbS8RLQLpbQn5iH-10">
+          <mxCell parent="7hHtjjbS8RLQLpbQn5iH-6" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#dfd;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;rounded=1;" vertex="1">
+            <mxGeometry height="54" width="177" x="354.5" y="890" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Actuator/Device" mermaidId="n:Device" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Actuator/Device" id="7hHtjjbS8RLQLpbQn5iH-11">
+          <mxCell parent="7hHtjjbS8RLQLpbQn5iH-6" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;rounded=1;" vertex="1">
+            <mxGeometry height="54" width="178" x="630" y="359" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Data" mermaidId="e:Sensor-&gt;Gateway#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Data" id="7hHtjjbS8RLQLpbQn5iH-12">
+          <mxCell edge="1" parent="7hHtjjbS8RLQLpbQn5iH-6" source="7hHtjjbS8RLQLpbQn5iH-7" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=1;" target="7hHtjjbS8RLQLpbQn5iH-8">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Encrypted Stream" mermaidId="e:Gateway-&gt;Cloud#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.587248322147651;exitY=1;exitDx=0;exitDy=0;entryX=0.5773809523809523;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.59;exitY=1;entryX=0.58;entryY=0;" mermaidBaseValue="Encrypted Stream" id="7hHtjjbS8RLQLpbQn5iH-13">
+          <mxCell edge="1" parent="7hHtjjbS8RLQLpbQn5iH-6" source="7hHtjjbS8RLQLpbQn5iH-8" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.59;exitY=1;exitDx=0;exitDy=0;entryX=0.58;entryY=0;entryDx=0;entryDy=0;rounded=1;" target="7hHtjjbS8RLQLpbQn5iH-9">
+            <mxGeometry relative="1" x="-0.1202" y="-1" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="463" y="552" />
+                <mxPoint x="520" y="620" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Analytics" mermaidId="e:Cloud-&gt;App#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Analytics" id="7hHtjjbS8RLQLpbQn5iH-14">
+          <mxCell edge="1" parent="7hHtjjbS8RLQLpbQn5iH-6" source="7hHtjjbS8RLQLpbQn5iH-9" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=1;" target="7hHtjjbS8RLQLpbQn5iH-10">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Control Commands" mermaidId="e:Cloud-&gt;Gateway#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.4226190476190476;exitY=0;exitDx=0;exitDy=0;entryX=0.412751677852349;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0.42;exitY=0;entryX=0.41;entryY=1;" mermaidBaseValue="Control Commands" id="7hHtjjbS8RLQLpbQn5iH-15">
+          <mxCell edge="1" parent="7hHtjjbS8RLQLpbQn5iH-6" source="7hHtjjbS8RLQLpbQn5iH-9" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.42;exitY=0;exitDx=0;exitDy=0;entryX=0.41;entryY=1;entryDx=0;entryDy=0;rounded=1;" target="7hHtjjbS8RLQLpbQn5iH-8">
+            <mxGeometry relative="1" x="-0.0323" y="24" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="340" y="630" />
+                <mxPoint x="307" y="552" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Actuation" mermaidId="e:Gateway-&gt;Device#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Actuation" id="7hHtjjbS8RLQLpbQn5iH-16">
+          <mxCell edge="1" parent="7hHtjjbS8RLQLpbQn5iH-6" source="7hHtjjbS8RLQLpbQn5iH-8" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=1;entryX=0.5;entryY=0;rounded=1;" target="7hHtjjbS8RLQLpbQn5iH-11">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="617" y="468" />
+                <mxPoint x="637" y="508" />
+                <mxPoint x="564" y="520" />
+                <mxPoint x="599" y="518" />
+                <mxPoint x="677" y="518" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-17" parent="1" style="swimlane;startSize=24;fillColor=#f5f5f5;strokeColor=#666666;html=1;fontStyle=1;rounded=1;" value="Edge / Device Layer" vertex="1">
+          <mxGeometry height="200" width="320" x="-118" y="1086" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-18" parent="7hHtjjbS8RLQLpbQn5iH-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="DHT22 Sensor&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;i&gt;Temp &amp;amp; Humidity&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-27" edge="1" parent="7hHtjjbS8RLQLpbQn5iH-17" source="7hHtjjbS8RLQLpbQn5iH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="7hHtjjbS8RLQLpbQn5iH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-19" parent="7hHtjjbS8RLQLpbQn5iH-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;ESP32&lt;/b&gt;&lt;br&gt;Microcontroller" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-20" parent="1" style="swimlane;startSize=24;fillColor=#ffe6cc;strokeColor=#d79b00;html=1;fontStyle=1;rounded=1;" value="Cloud Layer (AWS)" vertex="1">
+          <mxGeometry height="200" width="220" x="490" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-21" parent="7hHtjjbS8RLQLpbQn5iH-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;AWS IoT Core&lt;/b&gt;&lt;br&gt;MQTT Broker" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-22" parent="1" style="swimlane;startSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontStyle=1;rounded=1;" value="Database Layer" vertex="1">
+          <mxGeometry height="200" width="200" x="866" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-23" parent="7hHtjjbS8RLQLpbQn5iH-22" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="&lt;b&gt;InfluxDB&lt;/b&gt;&lt;br&gt;Time Series DB" vertex="1">
+          <mxGeometry height="70" width="100" x="50" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-24" edge="1" parent="1" source="7hHtjjbS8RLQLpbQn5iH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#666666;" target="7hHtjjbS8RLQLpbQn5iH-19" value="I2C / GPIO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-25" edge="1" parent="1" source="7hHtjjbS8RLQLpbQn5iH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;labelBackgroundColor=default;" target="7hHtjjbS8RLQLpbQn5iH-21" value="MQTT over TLS&lt;br&gt;Port 8883">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hHtjjbS8RLQLpbQn5iH-26" edge="1" parent="1" source="7hHtjjbS8RLQLpbQn5iH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;labelBackgroundColor=default;" target="7hHtjjbS8RLQLpbQn5iH-23" value="Rules Engine&lt;br&gt;Route">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
